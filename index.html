@@ -1,0 +1,778 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dott.ssa Gina Belmonte | Psicologa a Bologna, Bolzano e Online</title>
+<meta name="description" content="Dott.ssa Gina Belmonte, psicologa con orientamento psicoanalitico e psicodinamico. Consulenze psicologiche per adulti e adolescenti a Bologna, Bolzano e online.">
+<meta name="theme-color" content="#14527D">
+<!-- TODO: aggiungere <link rel="canonical"> e rendere assoluto l'URL di og:image quando il dominio sarà definito -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="it_IT">
+<meta property="og:title" content="Dott.ssa Gina Belmonte | Psicologa a Bologna, Bolzano e Online">
+<meta property="og:description" content="Psicologa con orientamento psicoanalitico e psicodinamico. Consulenze psicologiche per adulti e adolescenti a Bologna, Bolzano e online.">
+<meta property="og:image" content="assets/gina-belmonte.webp">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%2314527D'/%3E%3Ctext x='32' y='45' font-size='38' text-anchor='middle' fill='%23ffffff' font-family='Georgia,serif'%3E%CE%A8%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1600&q=70" imagesrcset="https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=800&q=70 800w, https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1600&q=70 1600w, https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=2400&q=70 2400w" imagesizes="100vw">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Psychologist",
+  "name": "Dott.ssa Gina Belmonte",
+  "description": "Psicologa con orientamento psicoanalitico e psicodinamico. Consulenze psicologiche per adulti e adolescenti a Bologna, Bolzano e online.",
+  "telephone": "+39 339 7969054",
+  "email": "gina_belmonte@virgilio.it",
+  "image": "assets/gina-belmonte.webp",
+  "areaServed": ["Bologna", "Bolzano", "Online"]
+}
+</script>
+
+<style>
+:root{
+  --powder:#BFD8ED;
+  --sky:#83B6D9;
+  --sky-deep:#3F7FAE; /* tonalità più profonda dello Sky Blue, per testi grandi leggibili */
+  --ocean:#14527D;
+  --ocean-dark:#0F4365;
+  --ice:#EEF6FB;
+  --white:#FFFFFF;
+  --slate:#536B7B;
+  --ink:#263A48;
+  --line:rgba(131,182,217,.45);
+  --shadow:0 1px 2px rgba(20,82,125,.04),0 8px 24px rgba(20,82,125,.05);
+  --serif:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+  --sans:"Montserrat",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  --header-h:76px;
+  --ease:cubic-bezier(.2,.6,.2,1);
+  --radius:14px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--header-h) + 8px);-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ice);color:var(--ink);font-family:var(--sans);font-size:1rem;line-height:1.75;font-weight:400;overflow-x:hidden}
+img{max-width:100%;display:block;height:auto}
+a{color:var(--ocean)}
+h1,h2,h3{font-family:var(--serif);color:var(--ocean);font-weight:600;line-height:1.15;margin:0}
+p{margin:0 0 1.1em}
+strong{font-weight:600;color:var(--ink)}
+:focus-visible{outline:2px solid var(--ocean);outline-offset:3px;border-radius:4px}
+.skip{position:absolute;left:-9999px;top:8px;background:var(--ocean);color:#fff;padding:.7rem 1.2rem;z-index:200;border-radius:6px;text-decoration:none;font-weight:600}
+.skip:focus{left:16px}
+
+.container{width:100%;max-width:1180px;margin:0 auto;padding:0 20px}
+section{padding:clamp(72px,10vw,120px) 0;position:relative}
+.bg-white{background:var(--white)}
+.bg-ice{background:var(--ice)}
+
+/* ---------- Section heads (centrati, senza maiuscolo) ---------- */
+.head{text-align:center;max-width:780px;margin:0 auto clamp(40px,6vw,64px)}
+.eyebrow{display:inline-flex;align-items:center;gap:14px;font-family:var(--sans);font-weight:500;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:var(--ocean);margin:0 0 18px}
+.eyebrow::before,.eyebrow::after{content:"";width:28px;height:1px;background:var(--sky)}
+.head h2{font-size:clamp(2.1rem,4.6vw,3.2rem);letter-spacing:0}
+.head .lead{color:var(--slate);margin:20px auto 0;max-width:640px;font-size:1.02rem}
+
+/* ---------- Buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:14px 30px;border-radius:6px;font-family:var(--sans);font-weight:600;font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;cursor:pointer;border:1.5px solid var(--ocean);transition:background-color .3s var(--ease),color .3s var(--ease),border-color .3s var(--ease)}
+.btn-primary{background:var(--ocean);color:var(--white)}
+.btn-primary:hover{background:var(--ocean-dark);border-color:var(--ocean-dark)}
+.btn-outline{background:transparent;color:var(--ocean)}
+.btn-outline:hover{background:rgba(20,82,125,.06)}
+.cta-wrap{text-align:center;margin-top:clamp(40px,6vw,56px)}
+
+/* ---------- Header ---------- */
+.site-header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.96);backdrop-filter:saturate(140%) blur(8px);-webkit-backdrop-filter:saturate(140%) blur(8px);border-bottom:1px solid var(--line)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;height:var(--header-h);max-width:1320px;margin:0 auto;padding:0 20px}
+.brand{text-decoration:none;display:flex;flex-direction:column;line-height:1.05;flex-shrink:0}
+.brand-name{font-family:var(--serif);font-weight:600;font-size:1.4rem;color:var(--ocean);white-space:nowrap}
+.brand-role{font-family:var(--sans);font-weight:500;font-size:.66rem;letter-spacing:.32em;color:var(--slate);margin-top:5px}
+.nav{display:none}
+.nav ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:nowrap;align-items:center;gap:clamp(14px,1.6vw,26px)}
+.nav a{font-size:.8rem;font-weight:500;color:var(--ink);text-decoration:none;padding:8px 0;position:relative;white-space:nowrap}
+.nav a::after{content:"";position:absolute;left:0;right:0;bottom:2px;height:1px;background:var(--sky);transform:scaleX(0);transition:transform .3s var(--ease)}
+.nav a:hover::after,.nav a.active::after{transform:scaleX(1)}
+.header-cta{display:none;min-height:44px;padding:11px 20px;font-size:.72rem;flex-shrink:0}
+.menu-toggle{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;border:1px solid var(--line);border-radius:8px;background:var(--white);cursor:pointer;color:var(--ocean)}
+.menu-toggle svg{width:22px;height:22px}
+.menu-toggle .i-close{display:none}
+.menu-toggle[aria-expanded="true"] .i-open{display:none}
+.menu-toggle[aria-expanded="true"] .i-close{display:block}
+.mobile-nav{position:fixed;inset:var(--header-h) 0 0 0;background:var(--white);z-index:99;overflow-y:auto;padding:24px 20px 40px;opacity:0;visibility:hidden;transform:translateY(-8px);transition:opacity .3s var(--ease),transform .3s var(--ease),visibility 0s .3s}
+.mobile-nav.open{opacity:1;visibility:visible;transform:none;transition:opacity .3s var(--ease),transform .3s var(--ease)}
+.mobile-nav ul{list-style:none;margin:0 auto;padding:0;max-width:420px;text-align:center}
+.mobile-nav li{border-bottom:1px solid var(--line)}
+.mobile-nav a{display:block;padding:15px 0;font-family:var(--serif);font-size:1.4rem;font-weight:600;color:var(--ocean);text-decoration:none}
+.mobile-nav .btn{margin:28px auto 0;display:flex;max-width:420px}
+/* Desktop: voci in riga, niente burger */
+/* Desktop: voci in riga + CTA nell'angolo destro, niente burger */
+@media (min-width:1024px){
+  .nav{display:block;margin-left:auto}
+  .header-cta{display:inline-flex}
+  .menu-toggle,.mobile-nav{display:none}
+}
+@media (min-width:1024px) and (max-width:1279px){
+  .header-inner{gap:18px;padding:0 16px}
+  .brand-name{font-size:1.2rem}
+  .brand-role{font-size:.58rem}
+  .nav ul{gap:12px}
+  .nav a{font-size:.72rem}
+  .header-cta{padding:10px 14px;font-size:.64rem;letter-spacing:.08em}
+}
+@media (max-width:359px){.brand-name{font-size:1.18rem}}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;min-height:clamp(540px,calc(100vh - var(--header-h)),860px);display:flex;align-items:center;justify-content:center;padding:clamp(80px,12vw,140px) 0;overflow:hidden;background:var(--ice)}
+.hero-media{position:absolute;inset:0;z-index:0}
+.hero-media img{width:100%;height:100%;object-fit:cover;object-position:center 60%}
+.hero::before{content:"";position:absolute;inset:0;z-index:1;background:rgba(255,255,255,.80)}
+.hero::after{content:"";position:absolute;z-index:1;width:min(760px,130vw);aspect-ratio:1;border:1px solid var(--sky);border-radius:50%;opacity:.35;left:50%;top:50%;transform:translate(-50%,-50%);pointer-events:none}
+.hero-content{position:relative;z-index:2;text-align:center;max-width:1000px;padding:0 14px;margin:0 auto;width:100%}
+.hero .eyebrow{font-size:.72rem;letter-spacing:.16em;flex-wrap:wrap;justify-content:center}
+.hero h1{font-size:clamp(1.45rem,7.2vw,4.6rem);font-weight:600;line-height:1.12;margin:6px 0 0}
+.hero h1 .l1,.hero h1 .l2{display:block;white-space:nowrap}
+.hero h1 .l1{color:var(--ocean)}
+.hero h1 .l2{color:var(--sky-deep);font-style:italic;font-weight:500}
+.psi-divider{display:flex;align-items:center;justify-content:center;gap:16px;color:var(--sky);margin:22px auto 0}
+.psi-divider::before,.psi-divider::after{content:"";width:56px;height:1px;background:var(--sky)}
+.psi-divider span{font-family:var(--serif);font-size:1.35rem;line-height:1}
+.hero p.sub{color:var(--slate);font-size:clamp(1rem,1.6vw,1.12rem);max-width:640px;margin:26px auto 0;font-weight:500;padding:0 6px}
+.hero-ctas{display:flex;flex-direction:column;gap:14px;justify-content:center;align-items:stretch;margin:38px auto 0;max-width:340px}
+@media (min-width:640px){.hero-ctas{flex-direction:row;max-width:none;align-items:center}}
+@media (min-width:1024px){.hero h1{font-size:clamp(3rem,5.2vw,4.6rem)}}
+
+/* ---------- Chi sono ---------- */
+.about{display:grid;grid-template-columns:1fr;grid-template-areas:"photo" "head" "text";gap:0;align-items:start}
+.about .head{grid-area:head;margin-bottom:32px}
+.portrait{grid-area:photo;justify-self:center;width:min(60vw,220px);margin:0 0 36px;position:relative}
+.portrait img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:50%}
+.portrait::after{content:"";position:absolute;inset:-10px;border:1px solid var(--sky);border-radius:50%;pointer-events:none}
+.about-text{grid-area:text;max-width:760px}
+.about-text p{color:var(--ink)}
+.about-text p.intro{font-family:var(--serif);font-size:clamp(1.35rem,2.2vw,1.6rem);line-height:1.4;color:var(--ocean);font-weight:500}
+.about-text .closing{font-family:var(--serif);font-style:italic;font-size:1.3rem;line-height:1.45;color:var(--ocean);padding-left:20px;border-left:2px solid var(--sky);margin:1.6em 0 0}
+@media (min-width:900px){
+  .about{grid-template-columns:300px 1fr;grid-template-areas:"head head" "photo text";column-gap:72px}
+  .about .head{margin-bottom:56px}
+  .portrait{width:300px;margin:8px 0 0;position:sticky;top:calc(var(--header-h) + 40px)}
+}
+
+/* ---------- A chi mi rivolgo ---------- */
+.targets{display:grid;gap:28px;grid-template-columns:1fr;max-width:1100px;margin:0 auto}
+.target{background:var(--white);border:1px solid rgba(131,182,217,.35);border-radius:var(--radius);padding:44px 32px 40px;text-align:center;box-shadow:var(--shadow);transition:transform .35s var(--ease),box-shadow .35s var(--ease)}
+.target:hover{transform:translateY(-4px);box-shadow:0 2px 4px rgba(20,82,125,.05),0 16px 36px rgba(20,82,125,.09)}
+.t-icon{width:92px;height:92px;margin:0 auto 26px;border-radius:50%;position:relative;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at 50% 40%,#fff 0%,var(--ice) 70%);color:var(--ocean)}
+.t-icon::before{content:"";position:absolute;inset:0;border-radius:50%;border:1px solid var(--sky)}
+.t-icon::after{content:"";position:absolute;inset:-9px;border-radius:50%;border:1px dashed rgba(131,182,217,.55);transition:transform 1.2s var(--ease)}
+.target:hover .t-icon::after{transform:rotate(90deg)}
+.t-icon svg{width:40px;height:40px;position:relative}
+.target h3{font-size:1.9rem;margin-bottom:14px}
+.target p{color:var(--ink);font-size:.95rem;margin:0}
+@media (min-width:720px){.targets{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1024px){.targets{grid-template-columns:repeat(3,1fr)}}
+
+/* ---------- Approccio: costellazione ---------- */
+.approach-intro{max-width:760px;margin:0 auto clamp(48px,7vw,80px);text-align:center}
+.approach-intro p{font-size:1.04rem}
+.orbit{display:grid;grid-template-columns:1fr;grid-template-areas:"core" "a" "b" "c" "d";gap:36px;max-width:1120px;margin:0 auto;align-items:center}
+.orbit-core{grid-area:core;justify-self:center;width:min(72vw,280px);aspect-ratio:1;position:relative}
+.orbit-core svg{width:100%;height:100%;overflow:visible}
+.orbit-core .spin{transform-origin:200px 200px;animation:spin 80s linear infinite}
+.orbit-core .spin-rev{transform-origin:200px 200px;animation:spin 120s linear infinite reverse}
+@keyframes spin{to{transform:rotate(360deg)}}
+.o-point{text-align:center;max-width:420px;justify-self:center;position:relative}
+.o-point h3{font-size:1.85rem;margin-bottom:8px;display:inline-flex;align-items:center;gap:12px}
+.o-point h3::before{content:"";width:10px;height:10px;border-radius:50%;border:1.5px solid var(--sky);box-shadow:0 0 0 5px rgba(131,182,217,.18);flex-shrink:0}
+.o-point p{margin:0;color:var(--slate)}
+.o-a{grid-area:a}.o-b{grid-area:b}.o-c{grid-area:c}.o-d{grid-area:d}
+@media (min-width:960px){
+  .orbit{grid-template-columns:1fr 400px 1fr;grid-template-areas:"a core b" "c core d";column-gap:40px;row-gap:90px}
+  .orbit-core{width:400px}
+  .o-a,.o-c{text-align:right;justify-self:end}
+  .o-b,.o-d{text-align:left;justify-self:start}
+  .o-a h3,.o-c h3{flex-direction:row-reverse}
+  .o-point::after{content:"";position:absolute;top:22px;width:56px;height:1px;background:linear-gradient(90deg,var(--sky),transparent)}
+  .o-a::after,.o-c::after{right:-72px;transform:scaleX(-1)}
+  .o-b::after,.o-d::after{left:-72px}
+  .o-a,.o-b{align-self:end}
+  .o-c,.o-d{align-self:start}
+}
+
+/* ---------- Servizi ---------- */
+.services{display:grid;grid-template-columns:1fr;gap:32px;max-width:1020px;margin:0 auto}
+.service{background:var(--white);border:1px solid rgba(131,182,217,.35);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;height:100%;transition:transform .35s var(--ease),box-shadow .35s var(--ease)}
+.service:hover{transform:translateY(-4px);box-shadow:0 2px 4px rgba(20,82,125,.05),0 16px 36px rgba(20,82,125,.09)}
+.service-media{aspect-ratio:16/10;overflow:hidden;position:relative;background:var(--powder)}
+.service-media img{width:100%;height:100%;object-fit:cover;transition:transform .6s var(--ease)}
+.service:hover .service-media img{transform:scale(1.04)}
+.service-tag{position:absolute;left:18px;bottom:18px;background:rgba(255,255,255,.94);color:var(--ocean);font-size:.7rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;padding:8px 14px;border-radius:40px}
+.service-body{padding:32px 30px 36px;flex:1;display:flex;flex-direction:column}
+.service h3{font-size:2rem;margin-bottom:6px}
+.service .tagline{font-family:var(--serif);font-style:italic;font-size:1.2rem;color:var(--sky-deep);margin-bottom:16px}
+.service p{font-size:.95rem;color:var(--ink);margin-bottom:.9em}
+.service p:last-child{margin-bottom:0}
+@media (min-width:820px){.services{grid-template-columns:1fr 1fr}}
+
+/* ---------- Come funziona: percorso animato ---------- */
+.process{list-style:none;margin:0 auto;padding:0;max-width:1120px;position:relative;display:grid;grid-template-columns:1fr;gap:44px}
+.process-track{position:absolute;left:35px;top:36px;bottom:36px;width:1px;background:rgba(131,182,217,.35);pointer-events:none}
+.process-fill{position:absolute;inset:0;background:linear-gradient(180deg,var(--sky),var(--ocean));transform:scaleY(0);transform-origin:top;transition:transform 2s var(--ease)}
+.process.play .process-fill{transform:scaleY(1)}
+.p-step{position:relative;padding-left:100px;min-height:72px;opacity:0;transform:translateY(18px);transition:opacity .6s var(--ease),transform .6s var(--ease);transition-delay:calc(var(--i) * .45s + .15s)}
+.process.play .p-step{opacity:1;transform:none}
+.p-node{position:absolute;left:0;top:0;width:72px;height:72px;border-radius:50%;background:var(--white);border:1px solid var(--sky);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-weight:600;font-size:1.55rem;color:var(--ocean);transition:background-color .6s var(--ease),color .6s var(--ease),border-color .6s var(--ease),transform .35s var(--ease);transition-delay:calc(var(--i) * .45s + .3s),calc(var(--i) * .45s + .3s),calc(var(--i) * .45s + .3s),0s;z-index:1}
+.process.play .p-node{background:var(--ocean);color:var(--white);border-color:var(--ocean)}
+.p-node::before{content:"";position:absolute;inset:-9px;border-radius:50%;border:1px solid var(--sky);opacity:0}
+.process.play .p-node::before{animation:pulse 3.2s var(--ease) infinite;animation-delay:calc(var(--i) * .45s + .8s)}
+@keyframes pulse{0%{transform:scale(.85);opacity:.9}70%{transform:scale(1.35);opacity:0}100%{opacity:0}}
+.p-step:hover .p-node{transform:scale(1.07)}
+.p-step h3{font-size:1.75rem;margin:10px 0 8px}
+.p-step p{color:var(--slate);margin:0;font-size:.96rem}
+@media (min-width:900px){
+  .process{grid-template-columns:repeat(4,1fr);gap:32px}
+  .process-track{left:12.5%;right:12.5%;top:44px;bottom:auto;width:auto;height:1px}
+  .process-fill{background:linear-gradient(90deg,var(--sky),var(--ocean));transform:scaleX(0);transform-origin:left}
+  .process.play .process-fill{transform:scaleX(1)}
+  .p-step{padding:0;text-align:center}
+  .p-node{position:relative;margin:0 auto 26px;width:88px;height:88px;font-size:1.85rem}
+  .p-step h3{margin-top:0}
+}
+
+/* ---------- Dove ricevo ---------- */
+.places{display:grid;grid-template-columns:1fr;gap:24px;max-width:1040px;margin:0 auto}
+.place{background:var(--white);border:1px solid rgba(131,182,217,.35);border-radius:var(--radius);padding:40px 28px;text-align:center;box-shadow:var(--shadow)}
+.place-ico{width:58px;height:58px;margin:0 auto 18px;border-radius:50%;border:1px solid var(--sky);display:flex;align-items:center;justify-content:center;color:var(--ocean)}
+.place-ico svg{width:24px;height:24px}
+.place h3{font-size:2rem;margin-bottom:10px}
+.place p{margin:0;color:var(--ink)}
+.place .pending{display:inline-block;margin-top:14px;font-family:var(--serif);font-style:italic;font-size:1.15rem;color:var(--sky-deep);border-top:1px solid var(--line);padding-top:12px}
+@media (min-width:820px){.places{grid-template-columns:repeat(3,1fr)}}
+
+/* ---------- FAQ ---------- */
+.faq{max-width:860px;margin:0 auto;border-top:1px solid var(--line)}
+.faq-item{border-bottom:1px solid var(--line)}
+.faq-q{margin:0;font-family:var(--sans)}
+.faq-q button{width:100%;display:flex;align-items:center;justify-content:space-between;gap:20px;background:none;border:0;padding:24px 4px;text-align:left;cursor:pointer;font-family:var(--sans);font-size:1rem;font-weight:600;color:var(--ocean);line-height:1.5}
+.faq-icon{flex:0 0 32px;width:32px;height:32px;border-radius:50%;border:1px solid var(--sky);position:relative;transition:background-color .35s var(--ease)}
+.faq-icon::before,.faq-icon::after{content:"";position:absolute;left:50%;top:50%;width:12px;height:1.5px;background:var(--ocean);transform:translate(-50%,-50%)}
+.faq-icon::after{transform:translate(-50%,-50%) rotate(90deg);transition:transform .35s var(--ease)}
+.faq-q button[aria-expanded="true"] .faq-icon{background:var(--ice)}
+.faq-q button[aria-expanded="true"] .faq-icon::after{transform:translate(-50%,-50%) rotate(0)}
+.faq-a{display:grid;grid-template-rows:0fr;transition:grid-template-rows .4s var(--ease)}
+.faq-a.open{grid-template-rows:1fr}
+.faq-a > div{overflow:hidden}
+.faq-a p{padding:0 56px 26px 4px;margin:0;color:var(--ink)}
+
+/* ---------- Contatti ---------- */
+.form-card{max-width:620px;margin:0 auto;background:var(--white);border:1px solid rgba(131,182,217,.35);border-radius:var(--radius);padding:clamp(24px,4vw,40px);box-shadow:var(--shadow)}
+.field{margin-bottom:18px}
+.field label{display:block;font-size:.8rem;font-weight:600;color:var(--ink);margin-bottom:7px;letter-spacing:.02em}
+.field .opt{font-weight:400;color:var(--slate)}
+.field input[type=text],.field input[type=email],.field input[type=tel],.field select,.field textarea{width:100%;font:inherit;font-size:1rem;color:var(--ink);background:var(--white);border:1px solid #9DB6C6;border-radius:8px;padding:12px 14px;min-height:48px;transition:border-color .25s var(--ease),box-shadow .25s var(--ease)}
+.field textarea{min-height:110px;resize:vertical}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--ocean);box-shadow:0 0 0 3px rgba(131,182,217,.4)}
+.field .hint{font-size:.78rem;color:var(--slate);margin:6px 0 0}
+.field-row{display:grid;grid-template-columns:1fr;gap:0 16px}
+@media (min-width:560px){.field-row{grid-template-columns:1fr 1fr}}
+.check{display:flex;gap:12px;align-items:flex-start;font-size:.84rem;color:var(--ink);line-height:1.6;font-weight:400!important;letter-spacing:0!important}
+.check input{flex:0 0 22px;width:22px;height:22px;margin:1px 0 0;accent-color:var(--ocean)}
+.form-card .btn{width:100%;margin-top:6px}
+.form-status{margin:14px 0 0;font-size:.88rem;color:var(--ocean);text-align:center;min-height:1.4em}
+.error-msg{color:#9B2C2C;font-size:.8rem;margin:6px 0 0;display:none}
+.field.invalid .error-msg{display:block}
+.field.invalid input,.field.invalid textarea{border-color:#9B2C2C}
+
+/* ---------- Footer ---------- */
+.site-footer{background:var(--ocean);color:#E3EEF6;padding:72px 0 32px}
+.site-footer a{color:#FFFFFF;text-decoration:none}
+.site-footer a:hover{text-decoration:underline;text-underline-offset:3px}
+.foot-top{text-align:center;padding-bottom:44px;border-bottom:1px solid rgba(191,216,237,.25)}
+.foot-name{font-family:var(--serif);font-size:2rem;font-weight:600;color:#fff;line-height:1.1}
+.foot-role{font-size:.7rem;letter-spacing:.32em;font-weight:500;color:var(--powder);margin-top:8px}
+.foot-claim{font-family:var(--serif);font-style:italic;font-size:1.3rem;color:#fff;margin:22px auto 0;max-width:560px}
+.foot-grid{display:grid;grid-template-columns:1fr;gap:36px;padding:44px 0;text-align:center}
+.foot-grid h2{font-family:var(--sans);font-size:.74rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--powder);margin-bottom:14px}
+.foot-grid ul{list-style:none;margin:0;padding:0}
+.foot-grid li{padding:4px 0;font-size:.92rem}
+.foot-links{columns:2;column-gap:24px}
+@media (min-width:820px){.foot-grid{grid-template-columns:1fr 1fr 1.4fr 1.2fr;text-align:left}}
+.foot-legal{border-top:1px solid rgba(191,216,237,.25);padding-top:26px;text-align:center;font-size:.8rem;color:#D3E3EF}
+.foot-legal p{margin:0}
+
+/* ---------- Reveal ---------- */
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .45s var(--ease),transform .45s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+.no-js .reveal,.no-js .p-step{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition-duration:.01ms!important;transition-delay:0s!important;animation:none!important}
+  .reveal,.p-step{opacity:1!important;transform:none!important}
+}
+</style>
+</head>
+<body class="no-js">
+<a class="skip" href="#main">Vai al contenuto</a>
+
+<!-- ============ 1. HEADER ============ -->
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#home" aria-label="Dott.ssa Gina Belmonte, Psicologa — torna all'inizio">
+      <span class="brand-name">Dott.ssa Gina Belmonte</span>
+      <span class="brand-role">PSICOLOGA</span>
+    </a>
+    <nav class="nav" aria-label="Menu principale">
+      <ul>
+        <li><a href="#chi-sono">Chi sono</a></li>
+        <li><a href="#a-chi-mi-rivolgo">A chi mi rivolgo</a></li>
+        <li><a href="#approccio">Approccio</a></li>
+        <li><a href="#servizi">Servizi</a></li>
+        <li><a href="#come-funziona">Come funziona</a></li>
+        <li><a href="#dove-ricevo">Dove ricevo</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contatti">Contatti</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-primary header-cta" href="#contatti">Richiedi una consulenza</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Apri il menu">
+      <svg class="i-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      <svg class="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+</header>
+<nav class="mobile-nav" id="mobile-nav" aria-label="Menu mobile">
+  <ul>
+    <li><a href="#chi-sono">Chi sono</a></li>
+    <li><a href="#a-chi-mi-rivolgo">A chi mi rivolgo</a></li>
+    <li><a href="#approccio">Approccio</a></li>
+    <li><a href="#servizi">Servizi</a></li>
+    <li><a href="#come-funziona">Come funziona</a></li>
+    <li><a href="#dove-ricevo">Dove ricevo</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="#contatti">Contatti</a></li>
+  </ul>
+  <a class="btn btn-primary" href="#contatti">Richiedi una consulenza</a>
+</nav>
+
+<main id="main">
+
+<!-- ============ 2. HERO ============ -->
+<section class="hero" id="home" aria-labelledby="hero-title">
+  <div class="hero-media">
+    <img
+      src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1600&q=70"
+      srcset="https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=800&q=70 800w, https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1600&q=70 1600w, https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=2400&q=70 2400w"
+      sizes="100vw" width="1600" height="1067" alt="" fetchpriority="high">
+  </div>
+  <div class="hero-content">
+    <p class="eyebrow">Dott.ssa Gina Belmonte · Psicologa</p>
+    <h1 id="hero-title"><span class="l1">Uno spazio per ascoltarsi,</span><span class="l2">comprendersi, ritrovarsi.</span></h1>
+    <div class="psi-divider" aria-hidden="true"><span>Ψ</span></div>
+    <p class="sub">Consulenze psicologiche per adulti e adolescenti, con orientamento psicoanalitico e psicodinamico, in presenza a Bologna e Bolzano e online.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-primary" href="#contatti">Richiedi una consulenza</a>
+      <a class="btn btn-outline" href="#approccio">Scopri il mio approccio</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3. CHI SONO ============ -->
+<section class="bg-white" id="chi-sono" aria-labelledby="chi-sono-title">
+  <div class="container">
+    <div class="about">
+      <figure class="portrait reveal">
+        <img src="assets/gina-belmonte.webp" width="800" height="800" alt="Ritratto della Dott.ssa Gina Belmonte, psicologa, sorridente con lunghi capelli scuri e camicia chiara" loading="lazy" decoding="async">
+      </figure>
+      <div class="head reveal">
+        <p class="eyebrow">Chi sono</p>
+        <h2 id="chi-sono-title">Mi presento...</h2>
+      </div>
+      <div class="about-text reveal">
+        <p class="intro">Sono la Dott.ssa Gina Belmonte, psicologa, e il mio percorso professionale è guidato dall'interesse per la persona, per la sua storia e per le dinamiche emotive e relazionali che accompagnano la vita.</p>
+        <p>Ho conseguito la <strong>laurea triennale in Scienze della Formazione nelle Organizzazioni</strong> e la <strong>laurea magistrale in Formazione e Sviluppo delle Risorse Umane</strong>, presso l'Università degli Studi di Verona.</p>
+        <p>Nel corso della mia formazione ho approfondito lo studio del comportamento umano, dei processi decisionali e delle relazioni interpersonali.</p>
+        <p>Ho maturato esperienze formative nell'ambito del sostegno psicologico e della mediazione familiare presso <strong>ASDI di Bolzano</strong>, entrando in contatto con situazioni di difficoltà relazionale e cambiamento.</p>
+        <p>Il mio percorso comprende inoltre un'esperienza di tirocinio osservativo presso <strong>SIIPaC Onlus</strong>, nell'ambito delle problematiche legate al gioco d'azzardo.</p>
+        <p>La mia formazione si è orientata verso la <strong>prospettiva psicoanalitica e psicodinamica</strong>, che attribuisce particolare attenzione alla storia personale, ai vissuti emotivi e ai processi interiori.</p>
+        <p>Credo nell'importanza di offrire uno spazio di ascolto nel quale la persona possa sentirsi accolta e accompagnata nella comprensione della propria esperienza.</p>
+        <p class="closing">Ogni storia è unica e merita di essere ascoltata con attenzione, sensibilità e rispetto.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 4. A CHI MI RIVOLGO ============ -->
+<section class="bg-ice" id="a-chi-mi-rivolgo" aria-labelledby="destinatari-title">
+  <div class="container">
+    <div class="head reveal">
+      <p class="eyebrow">A chi mi rivolgo</p>
+      <h2 id="destinatari-title">Ogni persona ha una storia da ascoltare.</h2>
+      <p class="lead">La consulenza psicologica offre uno spazio dedicato alla comprensione delle difficoltà, dei vissuti emotivi e delle esperienze personali.</p>
+    </div>
+    <div class="targets">
+      <article class="target reveal">
+        <div class="t-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="16" r="7"/><path d="M10 41c1.5-8 7.2-13 14-13s12.5 5 14 13"/><path d="M33 9.5c2.6 1 4.5 3.6 4.5 6.5" stroke="#83B6D9"/></svg>
+        </div>
+        <h3>Adulti</h3>
+        <p>Per adulti che attraversano momenti di difficoltà emotiva, desiderano approfondire la conoscenza di sé o sentono il bisogno di uno spazio di ascolto e riflessione.</p>
+      </article>
+      <article class="target reveal">
+        <div class="t-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M24 42V22"/><path d="M24 26c0-7-5-11-12-11 0 7 5 11 12 11z"/><path d="M24 22c0-8 5.5-13 13-13 0 8-5.5 13-13 13z"/><path d="M15 42h18" stroke="#83B6D9"/></svg>
+        </div>
+        <h3>Adolescenti</h3>
+        <p>Per adolescenti che vivono trasformazioni, difficoltà emotive o relazionali e possono beneficiare di uno spazio psicologico dedicato alla propria esperienza.</p>
+      </article>
+      <article class="target reveal">
+        <div class="t-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="24" r="10"/><circle cx="30" cy="24" r="10"/><path d="M24 16.2v15.6" stroke="#83B6D9"/></svg>
+        </div>
+        <h3>Chi vive un momento di cambiamento</h3>
+        <p>Per persone che attraversano passaggi delicati della vita, separazioni o situazioni relazionali complesse e desiderano comprendere meglio i propri vissuti.</p>
+      </article>
+    </div>
+    <div class="cta-wrap reveal"><a class="btn btn-primary" href="#contatti">Richiedi informazioni</a></div>
+  </div>
+</section>
+
+<!-- ============ 5. IL MIO APPROCCIO ============ -->
+<section class="bg-white" id="approccio" aria-labelledby="approccio-title">
+  <div class="container">
+    <div class="head reveal">
+      <p class="eyebrow">Il mio approccio</p>
+      <h2 id="approccio-title">Comprendere il presente, ascoltando la propria storia.</h2>
+    </div>
+    <div class="approach-intro reveal">
+      <p>Il mio orientamento si ispira alla <strong>prospettiva psicoanalitica e psicodinamica</strong>, che considera il mondo emotivo, la storia personale e i processi inconsci come aspetti importanti per comprendere l'esperienza individuale.</p>
+      <p>Attraverso l'ascolto e la riflessione, la consulenza psicologica può offrire uno spazio nel quale esplorare vissuti, difficoltà e dinamiche relazionali, favorendo una maggiore consapevolezza di sé.</p>
+    </div>
+    <div class="orbit">
+      <div class="orbit-core reveal" aria-hidden="true">
+        <svg viewBox="0 0 400 400">
+          <defs>
+            <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#EEF6FB"/>
+              <stop offset="70%" stop-color="#EEF6FB" stop-opacity=".7"/>
+              <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+            </radialGradient>
+          </defs>
+          <circle cx="200" cy="200" r="196" fill="url(#glow)"/>
+          <g class="spin"><circle cx="200" cy="200" r="190" fill="none" stroke="#83B6D9" stroke-width="1" stroke-dasharray="2 9"/></g>
+          <g class="spin-rev">
+            <circle cx="200" cy="200" r="148" fill="none" stroke="#BFD8ED" stroke-width="1"/>
+            <circle cx="200" cy="52" r="5" fill="#83B6D9"/>
+            <circle cx="348" cy="200" r="3.5" fill="#BFD8ED" stroke="#83B6D9"/>
+            <circle cx="200" cy="348" r="5" fill="#83B6D9"/>
+            <circle cx="52" cy="200" r="3.5" fill="#BFD8ED" stroke="#83B6D9"/>
+          </g>
+          <circle cx="200" cy="200" r="98" fill="#FFFFFF" stroke="#83B6D9" stroke-width="1"/>
+          <text x="200" y="236" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-size="110" font-weight="500" fill="#14527D">Ψ</text>
+        </svg>
+      </div>
+      <div class="o-point o-a reveal"><h3>Ascolto</h3><p>Accogliere la persona e la sua esperienza con attenzione e rispetto, offrendo un tempo dedicato e uno spazio riservato.</p></div>
+      <div class="o-point o-b reveal"><h3>Storia personale</h3><p>Dare spazio alle esperienze che contribuiscono a costruire il proprio modo di vivere emozioni e relazioni.</p></div>
+      <div class="o-point o-c reveal"><h3>Mondo emotivo</h3><p>Esplorare vissuti, sentimenti e modi di entrare in relazione, anche quelli che tendono a ripetersi nel tempo.</p></div>
+      <div class="o-point o-d reveal"><h3>Consapevolezza</h3><p>Favorire una comprensione più profonda di sé, nel rispetto dei tempi e dell'unicità di ogni persona.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 6. I SERVIZI ============ -->
+<section class="bg-ice" id="servizi" aria-labelledby="servizi-title">
+  <div class="container">
+    <div class="head reveal">
+      <p class="eyebrow">I servizi</p>
+      <h2 id="servizi-title">Uno spazio di ascolto, ovunque tu sia.</h2>
+      <p class="lead">Consulenze psicologiche rivolte ad adulti e adolescenti, disponibili in presenza a Bologna e Bolzano e online.</p>
+    </div>
+    <div class="services">
+      <article class="service reveal">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=900&h=563&q=70" width="900" height="563" alt="Ambiente luminoso e raccolto con tavolino, sedia in legno chiaro e piante" loading="lazy" decoding="async">
+          <span class="service-tag">Bologna · Bolzano</span>
+        </div>
+        <div class="service-body">
+          <h3>Consulenza psicologica in presenza</h3>
+          <p class="tagline">Un luogo riservato in cui fermarsi e ascoltarsi.</p>
+          <p>L'incontro in studio offre un contesto protetto e accogliente, pensato per dare tempo e parola alla propria esperienza. La presenza fisica favorisce un ascolto diretto e la costruzione graduale della relazione professionale.</p>
+          <p>Ricevo adulti e adolescenti nelle città di <strong>Bologna</strong> e <strong>Bolzano</strong>, in un clima di riservatezza e rispetto.</p>
+        </div>
+      </article>
+      <article class="service reveal">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=900&h=563&q=70" width="900" height="563" alt="Scrivania luminosa con computer portatile, lampada e pianta" loading="lazy" decoding="async">
+          <span class="service-tag">Online</span>
+        </div>
+        <div class="service-body">
+          <h3>Consulenza psicologica online</h3>
+          <p class="tagline">L'ascolto che supera la distanza.</p>
+          <p>La consulenza online permette di incontrarsi attraverso strumenti digitali appropriati, mantenendo la stessa attenzione alla relazione professionale e alla riservatezza.</p>
+          <p>È una possibilità preziosa quando la distanza, gli impegni o le esigenze personali rendono difficile l'incontro in studio. L'appropriatezza di questa modalità viene valutata insieme, in base alla situazione individuale.</p>
+        </div>
+      </article>
+    </div>
+    <div class="cta-wrap reveal"><a class="btn btn-primary" href="#contatti">Richiedi una consulenza</a></div>
+  </div>
+</section>
+
+<!-- ============ 7. COME FUNZIONA ============ -->
+<section class="bg-white" id="come-funziona" aria-labelledby="funziona-title">
+  <div class="container">
+    <div class="head reveal">
+      <p class="eyebrow">Come funziona</p>
+      <h2 id="funziona-title">Il primo passo è trovare uno spazio di ascolto.</h2>
+    </div>
+    <ol class="process" id="process">
+      <li class="process-track" aria-hidden="true"><span class="process-fill"></span></li>
+      <li class="p-step" style="--i:0"><span class="p-node" aria-hidden="true">01</span><h3>Contattami</h3><p>Puoi scrivermi o telefonarmi per richiedere informazioni sulle consulenze psicologiche.</p></li>
+      <li class="p-step" style="--i:1"><span class="p-node" aria-hidden="true">02</span><h3>Ci conosciamo</h3><p>Un primo contatto permette di chiarire le esigenze e di conoscerci, senza fretta.</p></li>
+      <li class="p-step" style="--i:2"><span class="p-node" aria-hidden="true">03</span><h3>Scegliamo la modalità</h3><p>Valutiamo insieme la modalità più appropriata: in presenza a Bologna o Bolzano, oppure online.</p></li>
+      <li class="p-step" style="--i:3"><span class="p-node" aria-hidden="true">04</span><h3>Definiamo il percorso</h3><p>In base alla situazione e alle necessità della persona, valutiamo insieme come procedere.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ 8. DOVE RICEVO ============ -->
+<section class="bg-ice" id="dove-ricevo" aria-labelledby="dove-title">
+  <div class="container">
+    <div class="head reveal">
+      <p class="eyebrow">Dove ricevo</p>
+      <h2 id="dove-title">Uno spazio di ascolto, in presenza e online.</h2>
+      <p class="lead">Offro consulenze psicologiche in presenza nelle città di Bologna e Bolzano e in modalità online.</p>
+    </div>
+    <div class="places">
+      <article class="place reveal">
+        <div class="place-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0113 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg></div>
+        <h3>Bologna</h3>
+        <p>Consulenze psicologiche in presenza.</p>
+        <span class="pending">Indirizzo in arrivo</span>
+      </article>
+      <article class="place reveal">
+        <div class="place-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0113 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg></div>
+        <h3>Bolzano</h3>
+        <p>Consulenze psicologiche in presenza.</p>
+        <span class="pending">Indirizzo in arrivo</span>
+      </article>
+      <article class="place reveal">
+        <div class="place-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3.5" y="5" width="17" height="11" rx="1.5"/><path d="M8 20h8M12 16v4"/></svg></div>
+        <h3>Online</h3>
+        <p>Consulenze psicologiche a distanza.</p>
+        <span class="pending">Ovunque tu sia</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 9. FAQ ============ -->
+<section class="bg-white" id="faq" aria-labelledby="faq-title">
+  <div class="container">
+    <div class="head reveal">
+      <p class="eyebrow">FAQ</p>
+      <h2 id="faq-title">Le risposte alle domande più frequenti.</h2>
+    </div>
+    <div class="faq reveal">
+      <div class="faq-item">
+        <h3 class="faq-q"><button type="button" aria-expanded="false" aria-controls="faq-1" id="faq-1-btn">A chi sono rivolte le consulenze psicologiche?<span class="faq-icon" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="faq-1" role="region" aria-labelledby="faq-1-btn" hidden><div><p>Mi rivolgo ad adulti e adolescenti che desiderano uno spazio di ascolto, riflessione e comprensione delle proprie difficoltà o esperienze personali.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button type="button" aria-expanded="false" aria-controls="faq-2" id="faq-2-btn">Che cosa significa approccio psicoanalitico e psicodinamico?<span class="faq-icon" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="faq-2" role="region" aria-labelledby="faq-2-btn" hidden><div><p>È la prospettiva a cui mi ispiro nel mio lavoro: attribuisco importanza alla storia personale, ai vissuti emotivi, alle relazioni e ai processi inconsci che possono contribuire al modo in cui viviamo le nostre esperienze.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button type="button" aria-expanded="false" aria-controls="faq-3" id="faq-3-btn">È possibile svolgere le consulenze online?<span class="faq-icon" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="faq-3" role="region" aria-labelledby="faq-3-btn" hidden><div><p>Sì, offro consulenze psicologiche anche online. Valuto insieme a te l'appropriatezza della modalità a distanza, in relazione alla tua situazione e alle tue esigenze.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button type="button" aria-expanded="false" aria-controls="faq-4" id="faq-4-btn">Dove si svolgono le consulenze in presenza?<span class="faq-icon" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="faq-4" role="region" aria-labelledby="faq-4-btn" hidden><div><p>Ricevo in presenza a Bologna e a Bolzano. Puoi chiedermi direttamente gli indirizzi e le modalità organizzative: sarò felice di darti tutte le informazioni.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button type="button" aria-expanded="false" aria-controls="faq-5" id="faq-5-btn">Come posso richiedere una consulenza?<span class="faq-icon" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="faq-5" role="region" aria-labelledby="faq-5-btn" hidden><div><p>Puoi telefonarmi al <a href="tel:+393397969054">339 7969054</a> oppure scrivermi all'indirizzo <a href="mailto:gina_belmonte@virgilio.it">gina_belmonte@virgilio.it</a>: ti risponderò per darti tutte le informazioni.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 10. CONTATTI ============ -->
+<section class="bg-ice" id="contatti" aria-labelledby="contatti-title">
+  <div class="container">
+    <div class="head reveal">
+      <p class="eyebrow">Contatti</p>
+      <h2 id="contatti-title">Ogni percorso comincia da un primo contatto.</h2>
+      <p class="lead">Se desideri ricevere informazioni sulle consulenze psicologiche o conoscere le modalità disponibili, scrivimi compilando il modulo.</p>
+    </div>
+    <!-- Il form compone un'email precompilata nel programma di posta dell'utente (mailto).
+         Nessun dato viene salvato o inviato a server di terze parti.
+         Per un invio diretto, collegare un endpoint reale conforme GDPR e aggiornare lo script. -->
+    <div class="form-card reveal">
+      <form id="contact-form" novalidate>
+        <div class="field-row">
+          <div class="field">
+            <label for="f-nome">Nome</label>
+            <input type="text" id="f-nome" name="nome" autocomplete="name" required aria-describedby="f-nome-err">
+            <p class="error-msg" id="f-nome-err">Inserisci il tuo nome.</p>
+          </div>
+          <div class="field">
+            <label for="f-email">Email</label>
+            <input type="email" id="f-email" name="email" autocomplete="email" required aria-describedby="f-email-err">
+            <p class="error-msg" id="f-email-err">Inserisci un indirizzo email valido.</p>
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="f-tel">Telefono <span class="opt">(facoltativo)</span></label>
+            <input type="tel" id="f-tel" name="telefono" autocomplete="tel">
+          </div>
+          <div class="field">
+            <label for="f-modo">Modalità preferita</label>
+            <select id="f-modo" name="modalita">
+              <option>Bologna</option>
+              <option>Bolzano</option>
+              <option>Online</option>
+              <option selected>Da valutare</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="f-msg">Messaggio breve</label>
+          <textarea id="f-msg" name="messaggio" maxlength="600" required aria-describedby="f-msg-hint f-msg-err"></textarea>
+          <p class="hint" id="f-msg-hint">Non è necessario indicare informazioni cliniche o dati sanitari.</p>
+          <p class="error-msg" id="f-msg-err">Scrivi un breve messaggio.</p>
+        </div>
+        <div class="field">
+          <label class="check" for="f-privacy">
+            <input type="checkbox" id="f-privacy" name="privacy" required aria-describedby="f-privacy-err">
+            <span>Ho letto l'<a href="privacy.html">informativa privacy</a> e acconsento al trattamento dei dati per essere ricontattato/a.</span>
+          </label>
+          <p class="error-msg" id="f-privacy-err">È necessario il consenso per procedere.</p>
+        </div>
+        <button type="submit" class="btn btn-primary">Invia la tua richiesta</button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ 11. FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot-top">
+      <div class="foot-name">Dott.ssa Gina Belmonte</div>
+      <div class="foot-role">PSICOLOGA</div>
+      <p class="foot-claim">Uno spazio per ascoltarsi, comprendersi, ritrovarsi.</p>
+    </div>
+    <div class="foot-grid">
+      <div>
+        <h2>Contatti</h2>
+        <ul>
+          <li><a href="tel:+393397969054">339 7969054</a></li>
+          <li><a href="mailto:gina_belmonte@virgilio.it">gina_belmonte@virgilio.it</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Sedi</h2>
+        <ul><li>Bologna</li><li>Bolzano</li><li>Online</li></ul>
+      </div>
+      <div>
+        <h2>Link</h2>
+        <ul class="foot-links">
+          <li><a href="#chi-sono">Chi sono</a></li>
+          <li><a href="#a-chi-mi-rivolgo">A chi mi rivolgo</a></li>
+          <li><a href="#approccio">Approccio</a></li>
+          <li><a href="#servizi">Servizi</a></li>
+          <li><a href="#come-funziona">Come funziona</a></li>
+          <li><a href="#dove-ricevo">Dove ricevo</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Dati professionali</h2>
+        <ul>
+          <li>Iscritta all'Ordine degli Psicologi di Bolzano, sezione A</li>
+          <!-- TODO dopo verifica: numero di iscrizione all'Albo, Partita IVA, dati fiscali -->
+        </ul>
+      </div>
+    </div>
+    <div class="foot-legal">
+      <p>© <span id="year">2026</span> Dott.ssa Gina Belmonte · Psicologa</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  document.body.classList.remove('no-js');
+  var y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();
+  var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* Mobile menu */
+  var toggle=document.querySelector('.menu-toggle'), panel=document.getElementById('mobile-nav');
+  function setMenu(open){
+    toggle.setAttribute('aria-expanded',open);
+    toggle.setAttribute('aria-label',open?'Chiudi il menu':'Apri il menu');
+    panel.classList.toggle('open',open);
+    document.body.style.overflow=open?'hidden':'';
+    if(open){var f=panel.querySelector('a'); f&&f.focus();}
+  }
+  toggle.addEventListener('click',function(){setMenu(toggle.getAttribute('aria-expanded')!=='true')});
+  panel.addEventListener('click',function(e){if(e.target.closest('a'))setMenu(false)});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&panel.classList.contains('open')){setMenu(false);toggle.focus();}});
+  window.addEventListener('resize',function(){if(window.innerWidth>=1024&&panel.classList.contains('open'))setMenu(false)});
+
+  /* FAQ accordion */
+  document.querySelectorAll('.faq-q button').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var open=btn.getAttribute('aria-expanded')==='true';
+      var p=document.getElementById(btn.getAttribute('aria-controls'));
+      btn.setAttribute('aria-expanded',!open);
+      if(open){p.classList.remove('open');setTimeout(function(){if(btn.getAttribute('aria-expanded')==='false')p.hidden=true},400);}
+      else{p.hidden=false;requestAnimationFrame(function(){requestAnimationFrame(function(){p.classList.add('open')})});}
+    });
+  });
+
+  /* Reveal + percorso animato */
+  var els=document.querySelectorAll('.reveal'), proc=document.getElementById('process');
+  if('IntersectionObserver' in window && !reduce){
+    var io=new IntersectionObserver(function(entries){entries.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target)}})},{rootMargin:'0px 0px -8% 0px',threshold:.08});
+    els.forEach(function(el){io.observe(el)});
+    var po=new IntersectionObserver(function(entries){if(entries[0].isIntersecting){proc.classList.add('play');po.disconnect()}},{threshold:.3});
+    po.observe(proc);
+  } else { els.forEach(function(el){el.classList.add('in')}); proc.classList.add('play'); }
+
+  /* Voce di menu attiva */
+  var links=document.querySelectorAll('.nav a');
+  if('IntersectionObserver' in window){
+    var so=new IntersectionObserver(function(entries){entries.forEach(function(en){if(en.isIntersecting){links.forEach(function(a){var on=a.getAttribute('href')==='#'+en.target.id;a.classList.toggle('active',on);if(on)a.setAttribute('aria-current','true');else a.removeAttribute('aria-current')})}})},{rootMargin:'-45% 0px -50% 0px'});
+    document.querySelectorAll('main section[id]').forEach(function(s){so.observe(s)});
+  }
+
+  /* Form → email precompilata (mailto) */
+  var form=document.getElementById('contact-form'), status=document.getElementById('form-status');
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var ok=true, first=null;
+    function check(id,valid){var el=document.getElementById(id);el.closest('.field').classList.toggle('invalid',!valid);el.setAttribute('aria-invalid',!valid);if(!valid){ok=false;first=first||el;}}
+    var nome=form.nome.value.trim(), email=form.email.value.trim(), msg=form.messaggio.value.trim();
+    check('f-nome',nome.length>1);
+    check('f-email',/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email));
+    check('f-msg',msg.length>2);
+    check('f-privacy',form.privacy.checked);
+    if(!ok){first.focus();status.textContent='Controlla i campi evidenziati.';return;}
+    var body='Nome: '+nome+'\nEmail: '+email+(form.telefono.value.trim()?'\nTelefono: '+form.telefono.value.trim():'')+'\nModalità preferita: '+form.modalita.value+'\n\n'+msg+'\n\n— Consenso al trattamento dei dati secondo l\'informativa privacy: sì';
+    window.location.href='mailto:gina_belmonte@virgilio.it?subject='+encodeURIComponent('Richiesta informazioni consulenza — '+nome)+'&body='+encodeURIComponent(body);
+    status.textContent='Si sta aprendo il tuo programma di posta con il messaggio pronto: premi Invia per completare la richiesta.';
+  });
+})();
+</script>
+</body>
+</html>
